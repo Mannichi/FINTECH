@@ -1,0 +1,75 @@
+body {
+    font-family: Century Gothic;
+    background-color: rgb(65, 65, 65);
+}
+
+.container-fluid {
+    background-color: rgb(100, 100, 100);
+    height: 61rem;
+}
+
+.btn-primary {
+    background-color: rgb(12, 51, 12);
+    border-color: rgb(58, 58, 58);
+    border-radius: 6px;
+}
+
+.btn-primary:hover {
+    border-color: rgb(68, 68, 68);
+    background-color: rgb(8, 58, 8);
+}
+
+.btn-primary:active {
+    box-shadow: rgb(102, 126, 96);
+    border-color: rgb(12, 51, 12);
+
+}
+
+.btn-primary:focus {
+    background-color: rgb(12, 51, 12);
+}
+
+.logo {
+    font-size: 2rem;
+    color: rgb(54, 136, 54);
+    text-shadow: 6px 6px 6px rgb(58, 58, 58);
+    border-bottom: 2px rgb(65, 65, 65) solid;
+
+}
+
+label {
+    text-align: left;
+}
+
+.menu {
+    float: left;
+}
+
+ul li,
+.dropdown-menu {
+    background-color: rgb(102, 126, 96);
+    color: rgb(100, 100, 100);
+}
+
+.dropdown-menu button:hover {
+    background-color: rgb(60, 95, 62);
+    color: #fff;
+}
+
+.dashboard-left {
+    color: rgb(12, 51, 12);
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(143, 143, 143);
+    padding: 3%;
+}
+
+.dashboard-right {
+    color: rgb(12, 51, 12);
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(143, 143, 143);
+    padding: 3%;
+}
